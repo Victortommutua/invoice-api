@@ -12,7 +12,7 @@ var corsOptions = {
     optionsSuccessStatus: 200
   }
 const MONGO_URL = process.env.MONGO_URL;
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 3001;
 app.get('/', async(req, res) => {
     res.send('home page');
 })
